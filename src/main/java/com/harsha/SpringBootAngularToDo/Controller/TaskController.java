@@ -33,10 +33,17 @@ public class TaskController {
 
 	@PostMapping("/task")
 	@ResponseStatus(HttpStatus.CREATED)
-	public ResponseEntity<Task> newEmployee(@RequestBody Task newTask) {
+	public ResponseEntity<Task> createTask(@RequestBody Task newTask) {
 		taskRepo.save(newTask);
 	    return new ResponseEntity(taskRepo.findById(newTask.getTaskId()),HttpStatus.CREATED);
 	  } 
 	
+	@GetMapping("/alltasks")
+	public ResponseEntity<Task> getAllTasks(){
+		
+		return new ResponseEntity(taskRepo.findAll(), HttpStatus.OK);
+		
+	}
+
 	
 }

@@ -27,3 +27,192 @@
 2020-05-12 12:02:46.900  INFO 22312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
 2020-05-12 12:03:28.859  WARN 22312 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
 2020-05-12 12:51:06.464  WARN 22312 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-12 13:28:05.029  INFO 27832 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 27832 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-05-12 13:28:05.032  INFO 27832 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-05-12 13:28:05.851  INFO 27832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-12 13:28:05.933  INFO 27832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 1 JPA repository interfaces.
+2020-05-12 13:28:07.078  INFO 27832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-12 13:28:07.088  INFO 27832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-12 13:28:07.089  INFO 27832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-12 13:28:07.247  INFO 27832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-12 13:28:07.247  INFO 27832 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2175 ms
+2020-05-12 13:28:07.383  INFO 27832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-12 13:28:07.586  INFO 27832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-12 13:28:07.594  INFO 27832 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-12 13:28:07.876  INFO 27832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-12 13:28:07.968  INFO 27832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-12 13:28:08.110  INFO 27832 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-12 13:28:08.242  INFO 27832 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-12 13:28:08.845  INFO 27832 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-12 13:28:08.851  INFO 27832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-12 13:28:09.149  WARN 27832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-12 13:28:09.280  INFO 27832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-12 13:28:09.371  INFO 27832 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-05-12 13:28:09.538  INFO 27832 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-05-12 13:28:09.596  INFO 27832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-12 13:28:09.597  INFO 27832 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 4.989 seconds (JVM running for 5.573)
+2020-05-12 13:28:19.649  INFO 27832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-12 13:28:19.650  INFO 27832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-12 13:28:19.658  INFO 27832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-05-12 14:06:38.642  WARN 27832 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-12 14:11:01.768  WARN 27832 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-12 14:11:02.812  WARN 27832 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-12 14:11:03.814  WARN 27832 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-12 14:19:46.436  WARN 27832 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-12 14:22:49.947  WARN 27832 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-12 14:44:47.853  WARN 27832 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-12 15:08:49.165  WARN 27832 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-12 15:08:54.220  WARN 27832 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m45s320ms135µs500ns).
+2020-05-12 16:01:47.937  WARN 27832 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m53s660ms436µs500ns).
+2020-05-12 16:19:35.997  WARN 27832 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-12 17:09:11.217  INFO 25968 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 25968 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-05-12 17:09:11.220  INFO 25968 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-05-12 17:09:12.281  INFO 25968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-12 17:09:12.359  INFO 25968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 1 JPA repository interfaces.
+2020-05-12 17:09:13.767  INFO 25968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-12 17:09:13.779  INFO 25968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-12 17:09:13.779  INFO 25968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-12 17:09:13.994  INFO 25968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-12 17:09:13.994  INFO 25968 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2727 ms
+2020-05-12 17:09:14.148  INFO 25968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-12 17:09:14.421  INFO 25968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-12 17:09:14.433  INFO 25968 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-12 17:09:14.769  INFO 25968 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-12 17:09:14.883  INFO 25968 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-12 17:09:15.063  INFO 25968 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-12 17:09:15.216  INFO 25968 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-12 17:09:16.014  INFO 25968 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-12 17:09:16.024  INFO 25968 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-12 17:09:16.355  WARN 25968 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-12 17:09:16.494  INFO 25968 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-12 17:09:16.590  INFO 25968 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-05-12 17:09:16.827  INFO 25968 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-05-12 17:09:16.912  INFO 25968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-12 17:09:16.914  INFO 25968 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 6.168 seconds (JVM running for 6.895)
+2020-05-12 17:09:26.295  INFO 25968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-12 17:09:26.296  INFO 25968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-12 17:09:26.304  INFO 25968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-05-12 17:11:53.879  INFO 34888 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 34888 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-05-12 17:11:53.882  INFO 34888 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-05-12 17:11:54.879  INFO 34888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-12 17:11:54.956  INFO 34888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 1 JPA repository interfaces.
+2020-05-12 17:11:56.526  INFO 34888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-12 17:11:56.541  INFO 34888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-12 17:11:56.541  INFO 34888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-12 17:11:56.726  INFO 34888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-12 17:11:56.727  INFO 34888 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2792 ms
+2020-05-12 17:11:56.884  INFO 34888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-12 17:11:57.124  INFO 34888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-12 17:11:57.134  INFO 34888 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-12 17:11:57.438  INFO 34888 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-12 17:11:57.526  INFO 34888 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-12 17:11:57.686  INFO 34888 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-12 17:11:57.828  INFO 34888 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-12 17:11:58.528  INFO 34888 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-12 17:11:58.535  INFO 34888 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-12 17:11:58.832  WARN 34888 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-12 17:11:58.979  INFO 34888 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-12 17:11:59.091  INFO 34888 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-05-12 17:11:59.279  INFO 34888 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-05-12 17:11:59.361  INFO 34888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-12 17:11:59.363  INFO 34888 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 5.961 seconds (JVM running for 6.606)
+2020-05-12 17:12:03.342  INFO 34888 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-12 17:12:03.343  INFO 34888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-12 17:12:03.362  INFO 34888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-05-12 17:13:09.463  INFO 17504 --- [main] .S.SpringBootAngularToDoApplicationTests : Starting SpringBootAngularToDoApplicationTests on G5L5KMV2E with PID 17504 (started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-05-12 17:13:09.465  INFO 17504 --- [main] .S.SpringBootAngularToDoApplicationTests : No active profile set, falling back to default profiles: default
+2020-05-12 17:13:10.524  INFO 17504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-12 17:13:10.603  INFO 17504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 1 JPA repository interfaces.
+2020-05-12 17:13:11.260  INFO 17504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-12 17:13:11.394  INFO 17504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-12 17:13:11.559  INFO 17504 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-12 17:13:12.359  INFO 17504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-12 17:13:12.559  INFO 17504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-12 17:13:12.581  INFO 17504 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-12 17:13:13.318  INFO 17504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-12 17:13:13.327  INFO 17504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-12 17:13:13.990  WARN 17504 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-12 17:13:14.442  INFO 17504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-12 17:13:14.563  INFO 17504 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-05-12 17:13:15.235  INFO 17504 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-12 17:13:15.313  INFO 17504 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-05-12 17:13:15.395  INFO 17504 --- [main] .S.SpringBootAngularToDoApplicationTests : Started SpringBootAngularToDoApplicationTests in 6.321 seconds (JVM running for 7.643)
+2020-05-12 17:13:15.648  INFO 17504 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-12 17:13:15.651  INFO 17504 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-12 17:13:15.653  INFO 17504 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-12 17:13:15.659  INFO 17504 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-12 17:15:25.694  INFO 32844 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 32844 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-05-12 17:15:25.697  INFO 32844 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-05-12 17:15:26.657  INFO 32844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-12 17:15:26.741  INFO 32844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 1 JPA repository interfaces.
+2020-05-12 17:15:28.304  INFO 32844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-12 17:15:28.316  INFO 32844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-12 17:15:28.317  INFO 32844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-12 17:15:28.507  INFO 32844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-12 17:15:28.508  INFO 32844 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2763 ms
+2020-05-12 17:15:28.663  INFO 32844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-12 17:15:28.902  INFO 32844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-12 17:15:28.911  INFO 32844 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-12 17:15:29.278  INFO 32844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-12 17:15:29.457  INFO 32844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-12 17:15:29.785  INFO 32844 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-12 17:15:30.024  INFO 32844 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-12 17:15:31.443  INFO 32844 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-12 17:15:31.459  INFO 32844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-12 17:15:31.992  WARN 32844 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-12 17:15:32.225  INFO 32844 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-12 17:15:32.646  INFO 32844 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-05-12 17:15:32.752  INFO 32844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-12 17:15:32.754  INFO 32844 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 7.54 seconds (JVM running for 8.194)
+2020-05-12 17:15:33.876  INFO 32844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-12 17:15:33.876  INFO 32844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-12 17:15:33.890  INFO 32844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-05-12 17:17:29.112  INFO 3376 --- [main] .S.SpringBootAngularToDoApplicationTests : Starting SpringBootAngularToDoApplicationTests on G5L5KMV2E with PID 3376 (started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-05-12 17:17:29.114  INFO 3376 --- [main] .S.SpringBootAngularToDoApplicationTests : No active profile set, falling back to default profiles: default
+2020-05-12 17:17:30.247  INFO 3376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-12 17:17:30.331  INFO 3376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 1 JPA repository interfaces.
+2020-05-12 17:17:31.032  INFO 3376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-12 17:17:31.173  INFO 3376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-12 17:17:31.367  INFO 3376 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-12 17:17:32.171  INFO 3376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-12 17:17:32.374  INFO 3376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-12 17:17:32.398  INFO 3376 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-12 17:17:33.107  INFO 3376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-12 17:17:33.116  INFO 3376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-12 17:17:33.806  WARN 3376 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-12 17:17:34.304  INFO 3376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-12 17:17:34.414  INFO 3376 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-05-12 17:17:35.078  INFO 3376 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-12 17:17:35.161  INFO 3376 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-05-12 17:17:35.242  INFO 3376 --- [main] .S.SpringBootAngularToDoApplicationTests : Started SpringBootAngularToDoApplicationTests in 6.595 seconds (JVM running for 7.873)
+2020-05-12 17:17:35.452  INFO 3376 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-12 17:17:35.456  INFO 3376 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-12 17:17:35.459  INFO 3376 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-12 17:17:35.466  INFO 3376 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-12 17:17:50.795  INFO 27984 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication v0.0.1-SNAPSHOT on G5L5KMV2E with PID 27984 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\SpringBootAngularToDo-0.0.1-SNAPSHOT.jar started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-05-12 17:17:50.799  INFO 27984 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-05-12 17:17:51.696  INFO 27984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-12 17:17:51.762  INFO 27984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 1 JPA repository interfaces.
+2020-05-12 17:17:53.359  INFO 27984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-12 17:17:53.372  INFO 27984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-12 17:17:53.373  INFO 27984 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-12 17:17:53.447  INFO 27984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-12 17:17:53.448  INFO 27984 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2600 ms
+2020-05-12 17:17:53.611  INFO 27984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-12 17:17:53.893  INFO 27984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-12 17:17:53.903  INFO 27984 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-05-12 17:17:54.176  INFO 27984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-12 17:17:54.257  INFO 27984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-12 17:17:54.411  INFO 27984 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-12 17:17:54.534  INFO 27984 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-12 17:17:55.243  INFO 27984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-12 17:17:55.252  INFO 27984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-12 17:17:55.574  WARN 27984 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-12 17:17:55.702  INFO 27984 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-12 17:17:55.787  INFO 27984 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-05-12 17:17:55.953  INFO 27984 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-05-12 17:17:56.026  INFO 27984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-12 17:17:56.028  INFO 27984 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 5.704 seconds (JVM running for 6.237)
+2020-05-12 17:18:01.655  INFO 27984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-12 17:18:01.656  INFO 27984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-12 17:18:01.665  INFO 27984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
