@@ -165,7 +165,7 @@ class TaskService {
         this.http = http;
     }
     getTask(id) {
-        return this.http.get('http://localhost:8080/task/' + id);
+        return this.http.get('/task/' + id);
     }
 }
 TaskService.ɵfac = function TaskService_Factory(t) { return new (t || TaskService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };

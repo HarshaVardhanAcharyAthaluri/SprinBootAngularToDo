@@ -316,7 +316,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(TaskService, [{
         key: "getTask",
         value: function getTask(id) {
-          return this.http.get('http://localhost:8080/task/' + id);
+          return this.http.get('/task/' + id);
         }
       }]);
 
