@@ -150,11 +150,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: AppComponent,
       selectors: [["app-root"]],
-      decls: 1,
+      decls: 3,
       vars: 0,
+      consts: [[2, "font-style", "oblique", "margin-top", "20px", "margin-left", "20px", "margin-right", "20px", "background", "#5b1f82", "font-family", "serif", "color", "white"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-task");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Todo App With SpringBoot+Angular");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-task");
         }
       },
       directives: [_task_task_component__WEBPACK_IMPORTED_MODULE_1__["TaskComponent"]],
@@ -453,11 +460,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function TaskComponent_div_7_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "table", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "table", 6);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "tr", 7);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "th");
 
@@ -485,7 +492,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, TaskComponent_div_7_tr_11_Template, 9, 4, "tr", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, TaskComponent_div_7_tr_11_Template, 9, 4, "tr", 8);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -503,11 +510,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function TaskComponent_div_8_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 5);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "table", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "table", 6);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "tr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "tr", 7);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "th");
 
@@ -634,7 +641,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-task"]],
       decls: 9,
       vars: 2,
-      consts: [["type", "text", "id", "taskId", 2, "width", "200px", "margin-top", "20px", "margin-left", "20px"], ["taskId", ""], ["type", "button", 1, "btn", "btn-primary", "btn-sm", 2, "margin-left", "20px", "margin-top", "10px", 3, "click"], ["type", "button", 1, "btn", "btn-primary", "btn-sm", 2, "margin-left", "250px", "margin-top", "10px", 3, "click"], [4, "ngIf"], [1, "table", 2, "margin-top", "10px", "margin-left", "20px", "color", "#2d0547", "font-style", "oblique"], [4, "ngFor", "ngForOf"]],
+      consts: [["type", "text", "id", "taskId", 2, "width", "200px", "margin-top", "20px", "margin-left", "20px"], ["taskId", ""], ["type", "button", 1, "btn", "btn-primary", "btn-sm", 2, "margin-left", "20px", "margin-top", "10px", 3, "click"], ["type", "button", 1, "btn", "btn-primary", "btn-sm", 2, "margin-left", "250px", "margin-top", "10px", 3, "click"], ["style", "margin-right: 45px", 4, "ngIf"], [2, "margin-right", "45px"], [1, "table", 2, "margin-top", "10px", "margin-left", "20px", "color", "#2d0547", "font-style", "oblique"], [2, "background", "#5b1f82", "font-family", "serif", "color", "white"], [4, "ngFor", "ngForOf"]],
       template: function TaskComponent_Template(rf, ctx) {
         if (rf & 1) {
           var _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
