@@ -1,0 +1,7 @@
+---
+applications:
+- name: SpringBootAngularToDo
+  path: target/SpringBootAngularToDo-0.0.1-SNAPSHOT.jar
+  domain: cfapps.io
+  instances: 1
+  
