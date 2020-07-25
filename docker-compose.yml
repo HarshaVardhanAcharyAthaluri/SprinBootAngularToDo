@@ -1,0 +1,11 @@
+version: '3'
+services:
+  springboottodo:
+    image: springboottodo:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/springboottodo
+    ports:
+      - "7070:7070"

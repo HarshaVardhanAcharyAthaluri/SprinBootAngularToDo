@@ -1,218 +1,549 @@
-2020-05-12 12:01:55.605  INFO 22312 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 22312 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
-2020-05-12 12:01:55.622  INFO 22312 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
-2020-05-12 12:01:56.681  INFO 22312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-05-12 12:01:56.756  INFO 22312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
-2020-05-12 12:01:57.954  INFO 22312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-05-12 12:01:57.965  INFO 22312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-05-12 12:01:57.965  INFO 22312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
-2020-05-12 12:01:58.129  INFO 22312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-05-12 12:01:58.129  INFO 22312 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2457 ms
-2020-05-12 12:01:58.284  INFO 22312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-05-12 12:01:58.546  INFO 22312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-05-12 12:01:58.553  INFO 22312 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-05-12 12:01:58.882  INFO 22312 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-05-12 12:01:59.013  INFO 22312 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-05-12 12:01:59.204  INFO 22312 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-12 12:01:59.363  INFO 22312 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-05-12 12:02:00.093  INFO 22312 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-12 12:02:00.100  INFO 22312 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-05-12 12:02:00.394  WARN 22312 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-05-12 12:02:00.524  INFO 22312 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-12 12:02:00.620  INFO 22312 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
-2020-05-12 12:02:00.774  INFO 22312 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2020-05-12 12:02:00.855  INFO 22312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-05-12 12:02:00.856  INFO 22312 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 5.844 seconds (JVM running for 6.627)
-2020-05-12 12:02:46.893  INFO 22312 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-05-12 12:02:46.893  INFO 22312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-05-12 12:02:46.900  INFO 22312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2020-05-12 12:03:28.859  WARN 22312 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 12:51:06.464  WARN 22312 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 13:28:05.029  INFO 27832 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 27832 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
-2020-05-12 13:28:05.032  INFO 27832 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
-2020-05-12 13:28:05.851  INFO 27832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-05-12 13:28:05.933  INFO 27832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 1 JPA repository interfaces.
-2020-05-12 13:28:07.078  INFO 27832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-05-12 13:28:07.088  INFO 27832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-05-12 13:28:07.089  INFO 27832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
-2020-05-12 13:28:07.247  INFO 27832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-05-12 13:28:07.247  INFO 27832 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2175 ms
-2020-05-12 13:28:07.383  INFO 27832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-05-12 13:28:07.586  INFO 27832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-05-12 13:28:07.594  INFO 27832 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-05-12 13:28:07.876  INFO 27832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-05-12 13:28:07.968  INFO 27832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-05-12 13:28:08.110  INFO 27832 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-12 13:28:08.242  INFO 27832 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-05-12 13:28:08.845  INFO 27832 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-12 13:28:08.851  INFO 27832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-05-12 13:28:09.149  WARN 27832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-05-12 13:28:09.280  INFO 27832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-12 13:28:09.371  INFO 27832 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
-2020-05-12 13:28:09.538  INFO 27832 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2020-05-12 13:28:09.596  INFO 27832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-05-12 13:28:09.597  INFO 27832 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 4.989 seconds (JVM running for 5.573)
-2020-05-12 13:28:19.649  INFO 27832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-05-12 13:28:19.650  INFO 27832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-05-12 13:28:19.658  INFO 27832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2020-05-12 14:06:38.642  WARN 27832 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 14:11:01.768  WARN 27832 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 14:11:02.812  WARN 27832 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 14:11:03.814  WARN 27832 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 14:19:46.436  WARN 27832 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 14:22:49.947  WARN 27832 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 14:44:47.853  WARN 27832 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 15:08:49.165  WARN 27832 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 15:08:54.220  WARN 27832 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m45s320ms135µs500ns).
-2020-05-12 16:01:47.937  WARN 27832 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m53s660ms436µs500ns).
-2020-05-12 16:19:35.997  WARN 27832 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2020-05-12 17:09:11.217  INFO 25968 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 25968 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
-2020-05-12 17:09:11.220  INFO 25968 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
-2020-05-12 17:09:12.281  INFO 25968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-05-12 17:09:12.359  INFO 25968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 1 JPA repository interfaces.
-2020-05-12 17:09:13.767  INFO 25968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-05-12 17:09:13.779  INFO 25968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-05-12 17:09:13.779  INFO 25968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
-2020-05-12 17:09:13.994  INFO 25968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-05-12 17:09:13.994  INFO 25968 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2727 ms
-2020-05-12 17:09:14.148  INFO 25968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-05-12 17:09:14.421  INFO 25968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-05-12 17:09:14.433  INFO 25968 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-05-12 17:09:14.769  INFO 25968 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-05-12 17:09:14.883  INFO 25968 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-05-12 17:09:15.063  INFO 25968 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-12 17:09:15.216  INFO 25968 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-05-12 17:09:16.014  INFO 25968 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-12 17:09:16.024  INFO 25968 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-05-12 17:09:16.355  WARN 25968 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-05-12 17:09:16.494  INFO 25968 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-12 17:09:16.590  INFO 25968 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
-2020-05-12 17:09:16.827  INFO 25968 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2020-05-12 17:09:16.912  INFO 25968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-05-12 17:09:16.914  INFO 25968 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 6.168 seconds (JVM running for 6.895)
-2020-05-12 17:09:26.295  INFO 25968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-05-12 17:09:26.296  INFO 25968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-05-12 17:09:26.304  INFO 25968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2020-05-12 17:11:53.879  INFO 34888 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 34888 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
-2020-05-12 17:11:53.882  INFO 34888 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
-2020-05-12 17:11:54.879  INFO 34888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-05-12 17:11:54.956  INFO 34888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 1 JPA repository interfaces.
-2020-05-12 17:11:56.526  INFO 34888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-05-12 17:11:56.541  INFO 34888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-05-12 17:11:56.541  INFO 34888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
-2020-05-12 17:11:56.726  INFO 34888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-05-12 17:11:56.727  INFO 34888 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2792 ms
-2020-05-12 17:11:56.884  INFO 34888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-05-12 17:11:57.124  INFO 34888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-05-12 17:11:57.134  INFO 34888 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-05-12 17:11:57.438  INFO 34888 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-05-12 17:11:57.526  INFO 34888 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-05-12 17:11:57.686  INFO 34888 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-12 17:11:57.828  INFO 34888 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-05-12 17:11:58.528  INFO 34888 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-12 17:11:58.535  INFO 34888 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-05-12 17:11:58.832  WARN 34888 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-05-12 17:11:58.979  INFO 34888 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-12 17:11:59.091  INFO 34888 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
-2020-05-12 17:11:59.279  INFO 34888 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2020-05-12 17:11:59.361  INFO 34888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-05-12 17:11:59.363  INFO 34888 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 5.961 seconds (JVM running for 6.606)
-2020-05-12 17:12:03.342  INFO 34888 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-05-12 17:12:03.343  INFO 34888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-05-12 17:12:03.362  INFO 34888 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
-2020-05-12 17:13:09.463  INFO 17504 --- [main] .S.SpringBootAngularToDoApplicationTests : Starting SpringBootAngularToDoApplicationTests on G5L5KMV2E with PID 17504 (started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
-2020-05-12 17:13:09.465  INFO 17504 --- [main] .S.SpringBootAngularToDoApplicationTests : No active profile set, falling back to default profiles: default
-2020-05-12 17:13:10.524  INFO 17504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-05-12 17:13:10.603  INFO 17504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 1 JPA repository interfaces.
-2020-05-12 17:13:11.260  INFO 17504 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-05-12 17:13:11.394  INFO 17504 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-05-12 17:13:11.559  INFO 17504 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-12 17:13:12.359  INFO 17504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-05-12 17:13:12.559  INFO 17504 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-05-12 17:13:12.581  INFO 17504 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-05-12 17:13:13.318  INFO 17504 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-12 17:13:13.327  INFO 17504 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-05-12 17:13:13.990  WARN 17504 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-05-12 17:13:14.442  INFO 17504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-12 17:13:14.563  INFO 17504 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
-2020-05-12 17:13:15.235  INFO 17504 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-05-12 17:13:15.313  INFO 17504 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2020-05-12 17:13:15.395  INFO 17504 --- [main] .S.SpringBootAngularToDoApplicationTests : Started SpringBootAngularToDoApplicationTests in 6.321 seconds (JVM running for 7.643)
-2020-05-12 17:13:15.648  INFO 17504 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-05-12 17:13:15.651  INFO 17504 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-05-12 17:13:15.653  INFO 17504 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-05-12 17:13:15.659  INFO 17504 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-05-12 17:15:25.694  INFO 32844 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 32844 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
-2020-05-12 17:15:25.697  INFO 32844 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
-2020-05-12 17:15:26.657  INFO 32844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-05-12 17:15:26.741  INFO 32844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 1 JPA repository interfaces.
-2020-05-12 17:15:28.304  INFO 32844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-05-12 17:15:28.316  INFO 32844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-05-12 17:15:28.317  INFO 32844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
-2020-05-12 17:15:28.507  INFO 32844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-05-12 17:15:28.508  INFO 32844 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2763 ms
-2020-05-12 17:15:28.663  INFO 32844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-05-12 17:15:28.902  INFO 32844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-05-12 17:15:28.911  INFO 32844 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-05-12 17:15:29.278  INFO 32844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-05-12 17:15:29.457  INFO 32844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-05-12 17:15:29.785  INFO 32844 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-12 17:15:30.024  INFO 32844 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-05-12 17:15:31.443  INFO 32844 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-12 17:15:31.459  INFO 32844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-05-12 17:15:31.992  WARN 32844 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-05-12 17:15:32.225  INFO 32844 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-12 17:15:32.646  INFO 32844 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2020-05-12 17:15:32.752  INFO 32844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-05-12 17:15:32.754  INFO 32844 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 7.54 seconds (JVM running for 8.194)
-2020-05-12 17:15:33.876  INFO 32844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-05-12 17:15:33.876  INFO 32844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-05-12 17:15:33.890  INFO 32844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
-2020-05-12 17:17:29.112  INFO 3376 --- [main] .S.SpringBootAngularToDoApplicationTests : Starting SpringBootAngularToDoApplicationTests on G5L5KMV2E with PID 3376 (started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
-2020-05-12 17:17:29.114  INFO 3376 --- [main] .S.SpringBootAngularToDoApplicationTests : No active profile set, falling back to default profiles: default
-2020-05-12 17:17:30.247  INFO 3376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-05-12 17:17:30.331  INFO 3376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 1 JPA repository interfaces.
-2020-05-12 17:17:31.032  INFO 3376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-05-12 17:17:31.173  INFO 3376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-05-12 17:17:31.367  INFO 3376 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-12 17:17:32.171  INFO 3376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-05-12 17:17:32.374  INFO 3376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-05-12 17:17:32.398  INFO 3376 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-05-12 17:17:33.107  INFO 3376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-12 17:17:33.116  INFO 3376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-05-12 17:17:33.806  WARN 3376 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-05-12 17:17:34.304  INFO 3376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-12 17:17:34.414  INFO 3376 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
-2020-05-12 17:17:35.078  INFO 3376 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-05-12 17:17:35.161  INFO 3376 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2020-05-12 17:17:35.242  INFO 3376 --- [main] .S.SpringBootAngularToDoApplicationTests : Started SpringBootAngularToDoApplicationTests in 6.595 seconds (JVM running for 7.873)
-2020-05-12 17:17:35.452  INFO 3376 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-05-12 17:17:35.456  INFO 3376 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-05-12 17:17:35.459  INFO 3376 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-05-12 17:17:35.466  INFO 3376 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-05-12 17:17:50.795  INFO 27984 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication v0.0.1-SNAPSHOT on G5L5KMV2E with PID 27984 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\SpringBootAngularToDo-0.0.1-SNAPSHOT.jar started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
-2020-05-12 17:17:50.799  INFO 27984 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
-2020-05-12 17:17:51.696  INFO 27984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-05-12 17:17:51.762  INFO 27984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 1 JPA repository interfaces.
-2020-05-12 17:17:53.359  INFO 27984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-05-12 17:17:53.372  INFO 27984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-05-12 17:17:53.373  INFO 27984 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
-2020-05-12 17:17:53.447  INFO 27984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-05-12 17:17:53.448  INFO 27984 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2600 ms
-2020-05-12 17:17:53.611  INFO 27984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-05-12 17:17:53.893  INFO 27984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-05-12 17:17:53.903  INFO 27984 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-05-12 17:17:54.176  INFO 27984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-05-12 17:17:54.257  INFO 27984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-05-12 17:17:54.411  INFO 27984 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-12 17:17:54.534  INFO 27984 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-05-12 17:17:55.243  INFO 27984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-12 17:17:55.252  INFO 27984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-05-12 17:17:55.574  WARN 27984 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-05-12 17:17:55.702  INFO 27984 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-05-12 17:17:55.787  INFO 27984 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
-2020-05-12 17:17:55.953  INFO 27984 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2020-05-12 17:17:56.026  INFO 27984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-05-12 17:17:56.028  INFO 27984 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 5.704 seconds (JVM running for 6.237)
-2020-05-12 17:18:01.655  INFO 27984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-05-12 17:18:01.656  INFO 27984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-05-12 17:18:01.665  INFO 27984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-25 14:13:28.634  INFO 31912 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 31912 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 14:13:28.657  INFO 31912 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-07-25 14:13:30.271  INFO 31912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 14:13:30.355  INFO 31912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73ms. Found 1 JPA repository interfaces.
+2020-07-25 14:13:31.760  INFO 31912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2020-07-25 14:13:31.772  INFO 31912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 14:13:31.772  INFO 31912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-25 14:13:32.038  INFO 31912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 14:13:32.039  INFO 31912 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3305 ms
+2020-07-25 14:13:32.218  INFO 31912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 14:13:32.523  INFO 31912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 14:13:32.532  INFO 31912 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 14:13:32.904  INFO 31912 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 14:13:33.043  INFO 31912 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 14:13:33.282  INFO 31912 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 14:13:33.475  INFO 31912 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 14:13:34.251  INFO 31912 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 14:13:34.260  INFO 31912 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 14:13:34.683  WARN 31912 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 14:13:34.845  INFO 31912 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 14:13:34.972  INFO 31912 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 14:13:35.226  INFO 31912 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 14:13:35.325  INFO 31912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2020-07-25 14:13:35.327  INFO 31912 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 7.292 seconds (JVM running for 8.144)
+2020-07-25 14:22:20.155  INFO 26568 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 26568 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 14:22:20.159  INFO 26568 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-07-25 14:22:21.647  INFO 26568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 14:22:21.729  INFO 26568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 1 JPA repository interfaces.
+2020-07-25 14:22:23.193  INFO 26568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2020-07-25 14:22:23.210  INFO 26568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 14:22:23.211  INFO 26568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-25 14:22:23.454  INFO 26568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 14:22:23.454  INFO 26568 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3247 ms
+2020-07-25 14:22:23.703  INFO 26568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 14:22:23.952  INFO 26568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 14:22:23.963  INFO 26568 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 14:22:24.360  INFO 26568 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 14:22:24.469  INFO 26568 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 14:22:24.670  INFO 26568 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 14:22:24.836  INFO 26568 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 14:22:25.560  INFO 26568 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 14:22:25.569  INFO 26568 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 14:22:26.073  WARN 26568 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 14:22:26.218  INFO 26568 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 14:22:26.325  INFO 26568 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-25 14:22:26.597  INFO 26568 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 14:22:26.649  INFO 26568 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 14:22:26.794  INFO 26568 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-25 14:22:26.839  INFO 26568 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-25 14:22:26.897  INFO 26568 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-25 14:22:27.090  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2020-07-25 14:22:27.091  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingHEAD_1
+2020-07-25 14:22:27.093  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPOST_1
+2020-07-25 14:22:27.094  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPUT_1
+2020-07-25 14:22:27.095  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPATCH_1
+2020-07-25 14:22:27.096  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingDELETE_1
+2020-07-25 14:22:27.097  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingOPTIONS_1
+2020-07-25 14:22:27.099  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingTRACE_1
+2020-07-25 14:22:27.107  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2020-07-25 14:22:27.110  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2020-07-25 14:22:27.112  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2020-07-25 14:22:27.114  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2020-07-25 14:22:27.116  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2020-07-25 14:22:27.118  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2020-07-25 14:22:27.120  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2020-07-25 14:22:27.122  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2020-07-25 14:22:27.123  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2020-07-25 14:22:27.125  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2020-07-25 14:22:27.126  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2020-07-25 14:22:27.128  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2020-07-25 14:22:27.131  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2020-07-25 14:22:27.133  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2020-07-25 14:22:27.135  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2020-07-25 14:22:27.137  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2020-07-25 14:22:27.139  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2020-07-25 14:22:27.141  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2020-07-25 14:22:27.143  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2020-07-25 14:22:27.145  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_1
+2020-07-25 14:22:27.147  INFO 26568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2020-07-25 14:22:27.225  INFO 26568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2020-07-25 14:22:27.227  INFO 26568 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 7.526 seconds (JVM running for 8.266)
+2020-07-25 14:22:53.492  INFO 26568 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:22:53.492  INFO 26568 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-25 14:22:53.507  INFO 26568 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-07-25 14:23:21.226  WARN 26568 --- [http-nio-7070-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'name' for method parameter of type String]
+2020-07-25 14:25:16.647  INFO 28112 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 28112 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 14:25:16.651  INFO 28112 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-07-25 14:25:18.180  INFO 28112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 14:25:18.262  INFO 28112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 1 JPA repository interfaces.
+2020-07-25 14:25:19.910  INFO 28112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2020-07-25 14:25:19.922  INFO 28112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 14:25:19.922  INFO 28112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-25 14:25:20.137  INFO 28112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 14:25:20.138  INFO 28112 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3437 ms
+2020-07-25 14:25:20.372  INFO 28112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 14:25:20.622  INFO 28112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 14:25:20.632  INFO 28112 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 14:25:21.009  INFO 28112 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 14:25:21.105  INFO 28112 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 14:25:21.265  INFO 28112 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 14:25:21.411  INFO 28112 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 14:25:22.094  INFO 28112 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 14:25:22.102  INFO 28112 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 14:25:22.616  WARN 28112 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 14:25:22.770  INFO 28112 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 14:25:22.880  INFO 28112 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-25 14:25:23.148  INFO 28112 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 14:25:23.203  INFO 28112 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 14:25:23.340  INFO 28112 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-25 14:25:23.369  INFO 28112 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-25 14:25:23.410  INFO 28112 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-25 14:25:23.560  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2020-07-25 14:25:23.561  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingHEAD_1
+2020-07-25 14:25:23.562  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPOST_1
+2020-07-25 14:25:23.563  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPUT_1
+2020-07-25 14:25:23.564  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPATCH_1
+2020-07-25 14:25:23.565  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingDELETE_1
+2020-07-25 14:25:23.566  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingOPTIONS_1
+2020-07-25 14:25:23.568  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingTRACE_1
+2020-07-25 14:25:23.573  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2020-07-25 14:25:23.576  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2020-07-25 14:25:23.578  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2020-07-25 14:25:23.580  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2020-07-25 14:25:23.581  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2020-07-25 14:25:23.583  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2020-07-25 14:25:23.585  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2020-07-25 14:25:23.587  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2020-07-25 14:25:23.589  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2020-07-25 14:25:23.591  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2020-07-25 14:25:23.593  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2020-07-25 14:25:23.594  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2020-07-25 14:25:23.597  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2020-07-25 14:25:23.599  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2020-07-25 14:25:23.601  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2020-07-25 14:25:23.603  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2020-07-25 14:25:23.604  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2020-07-25 14:25:23.606  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2020-07-25 14:25:23.607  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2020-07-25 14:25:23.609  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_1
+2020-07-25 14:25:23.610  INFO 28112 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2020-07-25 14:25:23.678  INFO 28112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2020-07-25 14:25:23.680  INFO 28112 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 7.482 seconds (JVM running for 8.211)
+2020-07-25 14:25:31.368  INFO 28112 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:25:31.369  INFO 28112 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-25 14:25:31.377  INFO 28112 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-25 14:29:18.118  WARN 28112 --- [http-nio-7070-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'name' for method parameter of type String]
+2020-07-25 14:29:30.423  WARN 28112 --- [http-nio-7070-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'name' for method parameter of type String]
+2020-07-25 14:30:03.036  WARN 28112 --- [http-nio-7070-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'name' for method parameter of type String]
+2020-07-25 14:30:14.231  WARN 28112 --- [http-nio-7070-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'name' for method parameter of type String]
+2020-07-25 14:33:58.720  INFO 34036 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 34036 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 14:33:58.723  INFO 34036 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-07-25 14:33:59.661  INFO 34036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 14:33:59.744  INFO 34036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 1 JPA repository interfaces.
+2020-07-25 14:34:01.478  INFO 34036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2020-07-25 14:34:01.489  INFO 34036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 14:34:01.490  INFO 34036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-25 14:34:01.788  INFO 34036 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 14:34:01.789  INFO 34036 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3016 ms
+2020-07-25 14:34:01.947  INFO 34036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 14:34:02.237  INFO 34036 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 14:34:02.245  INFO 34036 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 14:34:02.577  INFO 34036 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 14:34:02.667  INFO 34036 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 14:34:02.865  INFO 34036 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 14:34:03.031  INFO 34036 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 14:34:03.745  INFO 34036 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 14:34:03.753  INFO 34036 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 14:34:04.050  WARN 34036 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 14:34:04.184  INFO 34036 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 14:34:04.277  INFO 34036 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 14:34:04.463  INFO 34036 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 14:34:04.554  INFO 34036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2020-07-25 14:34:04.555  INFO 34036 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 6.28 seconds (JVM running for 6.997)
+2020-07-25 14:34:12.435  INFO 34036 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:34:12.436  INFO 34036 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-25 14:34:12.444  INFO 34036 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-07-25 14:39:18.560  INFO 35612 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 35612 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 14:39:18.563  INFO 35612 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-07-25 14:39:19.526  INFO 35612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 14:39:19.606  INFO 35612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 1 JPA repository interfaces.
+2020-07-25 14:39:21.344  INFO 35612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2020-07-25 14:39:21.356  INFO 35612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 14:39:21.357  INFO 35612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-25 14:39:21.611  INFO 35612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 14:39:21.611  INFO 35612 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3001 ms
+2020-07-25 14:39:21.760  INFO 35612 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 14:39:22.068  INFO 35612 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 14:39:22.076  INFO 35612 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 14:39:22.382  INFO 35612 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 14:39:22.472  INFO 35612 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 14:39:22.662  INFO 35612 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 14:39:22.823  INFO 35612 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 14:39:23.517  INFO 35612 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 14:39:23.525  INFO 35612 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 14:39:23.823  WARN 35612 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 14:39:23.964  INFO 35612 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 14:39:24.061  INFO 35612 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 14:39:24.249  INFO 35612 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 14:39:24.320  INFO 35612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2020-07-25 14:39:24.322  INFO 35612 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 6.207 seconds (JVM running for 6.94)
+2020-07-25 14:39:27.846  INFO 35612 --- [http-nio-7070-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:39:27.847  INFO 35612 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-25 14:39:27.854  INFO 35612 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-25 14:39:52.393  INFO 15876 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 15876 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 14:39:52.397  INFO 15876 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-07-25 14:39:53.363  INFO 15876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 14:39:53.438  INFO 15876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 1 JPA repository interfaces.
+2020-07-25 14:39:55.088  INFO 15876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2020-07-25 14:39:55.100  INFO 15876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 14:39:55.100  INFO 15876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-25 14:39:55.336  INFO 15876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 14:39:55.336  INFO 15876 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2890 ms
+2020-07-25 14:39:55.490  INFO 15876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 14:39:55.769  INFO 15876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 14:39:55.777  INFO 15876 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 14:39:56.085  INFO 15876 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 14:39:56.175  INFO 15876 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 14:39:56.362  INFO 15876 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 14:39:56.515  INFO 15876 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 14:39:57.219  INFO 15876 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 14:39:57.227  INFO 15876 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 14:39:57.522  WARN 15876 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 14:39:57.662  INFO 15876 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 14:39:57.753  INFO 15876 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 14:39:57.938  INFO 15876 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 14:39:58.010  INFO 15876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2020-07-25 14:39:58.012  INFO 15876 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 6.066 seconds (JVM running for 6.758)
+2020-07-25 14:40:01.143  INFO 15876 --- [http-nio-7070-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:40:01.143  INFO 15876 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-25 14:40:01.151  INFO 15876 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-07-25 14:44:09.374  INFO 30512 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 30512 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 14:44:09.378  INFO 30512 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-07-25 14:44:10.394  INFO 30512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 14:44:10.471  INFO 30512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 1 JPA repository interfaces.
+2020-07-25 14:44:12.115  INFO 30512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2020-07-25 14:44:12.127  INFO 30512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 14:44:12.128  INFO 30512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-25 14:44:12.365  INFO 30512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 14:44:12.366  INFO 30512 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2944 ms
+2020-07-25 14:44:12.519  INFO 30512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 14:44:12.820  INFO 30512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 14:44:12.828  INFO 30512 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 14:44:13.139  INFO 30512 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 14:44:13.237  INFO 30512 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 14:44:13.426  INFO 30512 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 14:44:13.591  INFO 30512 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 14:44:14.320  INFO 30512 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 14:44:14.328  INFO 30512 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 14:44:14.651  WARN 30512 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 14:44:14.799  INFO 30512 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 14:44:14.898  INFO 30512 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 14:44:15.080  INFO 30512 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 14:44:15.183  INFO 30512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2020-07-25 14:44:15.185  INFO 30512 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 6.394 seconds (JVM running for 7.109)
+2020-07-25 14:44:21.927  INFO 30512 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:44:21.928  INFO 30512 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-25 14:44:21.935  INFO 30512 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-25 14:45:22.545  INFO 33844 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 33844 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 14:45:22.550  INFO 33844 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-07-25 14:45:24.193  INFO 33844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 14:45:24.280  INFO 33844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74ms. Found 1 JPA repository interfaces.
+2020-07-25 14:45:25.850  INFO 33844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2020-07-25 14:45:25.863  INFO 33844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 14:45:25.863  INFO 33844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-25 14:45:26.106  INFO 33844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 14:45:26.106  INFO 33844 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3499 ms
+2020-07-25 14:45:26.338  INFO 33844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 14:45:26.563  INFO 33844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 14:45:26.572  INFO 33844 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 14:45:26.893  INFO 33844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 14:45:26.985  INFO 33844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 14:45:27.165  INFO 33844 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 14:45:27.312  INFO 33844 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 14:45:28.031  INFO 33844 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 14:45:28.038  INFO 33844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 14:45:28.511  WARN 33844 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 14:45:28.655  INFO 33844 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 14:45:28.759  INFO 33844 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-25 14:45:29.013  INFO 33844 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 14:45:29.073  INFO 33844 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 14:45:29.210  INFO 33844 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-25 14:45:29.244  INFO 33844 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-25 14:45:29.292  INFO 33844 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-25 14:45:29.458  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2020-07-25 14:45:29.459  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingHEAD_1
+2020-07-25 14:45:29.461  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPOST_1
+2020-07-25 14:45:29.462  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPUT_1
+2020-07-25 14:45:29.464  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPATCH_1
+2020-07-25 14:45:29.464  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingDELETE_1
+2020-07-25 14:45:29.466  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingOPTIONS_1
+2020-07-25 14:45:29.467  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingTRACE_1
+2020-07-25 14:45:29.472  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2020-07-25 14:45:29.474  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2020-07-25 14:45:29.476  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2020-07-25 14:45:29.477  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2020-07-25 14:45:29.479  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2020-07-25 14:45:29.481  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2020-07-25 14:45:29.482  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2020-07-25 14:45:29.484  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2020-07-25 14:45:29.486  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2020-07-25 14:45:29.487  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2020-07-25 14:45:29.489  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2020-07-25 14:45:29.491  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2020-07-25 14:45:29.495  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2020-07-25 14:45:29.496  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2020-07-25 14:45:29.499  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2020-07-25 14:45:29.500  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2020-07-25 14:45:29.503  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2020-07-25 14:45:29.504  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2020-07-25 14:45:29.506  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2020-07-25 14:45:29.507  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_1
+2020-07-25 14:45:29.509  INFO 33844 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2020-07-25 14:45:29.582  INFO 33844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2020-07-25 14:45:29.584  INFO 33844 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 7.574 seconds (JVM running for 8.327)
+2020-07-25 14:45:29.698  INFO 33844 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:45:29.698  INFO 33844 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-25 14:45:29.706  INFO 33844 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-07-25 14:46:15.834  INFO 27956 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 27956 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 14:46:15.838  INFO 27956 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-07-25 14:46:17.267  INFO 27956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 14:46:17.340  INFO 27956 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+2020-07-25 14:46:18.932  INFO 27956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2020-07-25 14:46:18.946  INFO 27956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 14:46:18.946  INFO 27956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-25 14:46:19.165  INFO 27956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 14:46:19.166  INFO 27956 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3282 ms
+2020-07-25 14:46:19.386  INFO 27956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 14:46:19.611  INFO 27956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 14:46:19.620  INFO 27956 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 14:46:19.960  INFO 27956 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 14:46:20.056  INFO 27956 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 14:46:20.224  INFO 27956 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 14:46:20.373  INFO 27956 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 14:46:21.069  INFO 27956 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 14:46:21.077  INFO 27956 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 14:46:21.590  WARN 27956 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 14:46:21.754  INFO 27956 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 14:46:21.866  INFO 27956 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-25 14:46:22.124  INFO 27956 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 14:46:22.186  INFO 27956 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 14:46:22.319  INFO 27956 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-25 14:46:22.359  INFO 27956 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-25 14:46:22.409  INFO 27956 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-25 14:46:22.586  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2020-07-25 14:46:22.587  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingHEAD_1
+2020-07-25 14:46:22.588  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPOST_1
+2020-07-25 14:46:22.590  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPUT_1
+2020-07-25 14:46:22.591  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPATCH_1
+2020-07-25 14:46:22.592  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingDELETE_1
+2020-07-25 14:46:22.594  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingOPTIONS_1
+2020-07-25 14:46:22.595  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingTRACE_1
+2020-07-25 14:46:22.600  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2020-07-25 14:46:22.603  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2020-07-25 14:46:22.606  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2020-07-25 14:46:22.609  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2020-07-25 14:46:22.611  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2020-07-25 14:46:22.613  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2020-07-25 14:46:22.615  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2020-07-25 14:46:22.616  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2020-07-25 14:46:22.618  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2020-07-25 14:46:22.620  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2020-07-25 14:46:22.621  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2020-07-25 14:46:22.623  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2020-07-25 14:46:22.625  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2020-07-25 14:46:22.627  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2020-07-25 14:46:22.629  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2020-07-25 14:46:22.630  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2020-07-25 14:46:22.632  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2020-07-25 14:46:22.633  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2020-07-25 14:46:22.634  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2020-07-25 14:46:22.635  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_1
+2020-07-25 14:46:22.637  INFO 27956 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2020-07-25 14:46:22.706  INFO 27956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2020-07-25 14:46:22.708  INFO 27956 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 7.325 seconds (JVM running for 8.038)
+2020-07-25 14:46:26.368  INFO 27956 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:46:26.370  INFO 27956 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-25 14:46:26.395  INFO 27956 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2020-07-25 14:47:09.482  INFO 31232 --- [main] c.h.S.SpringBootAngularToDoApplication   : Starting SpringBootAngularToDoApplication on G5L5KMV2E with PID 31232 (C:\Users\212711129\Desktop\dev\SprinBootAngularToDo\target\classes started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 14:47:09.485  INFO 31232 --- [main] c.h.S.SpringBootAngularToDoApplication   : No active profile set, falling back to default profiles: default
+2020-07-25 14:47:11.065  INFO 31232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 14:47:11.143  INFO 31232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 1 JPA repository interfaces.
+2020-07-25 14:47:12.863  INFO 31232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2020-07-25 14:47:12.874  INFO 31232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-25 14:47:12.875  INFO 31232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-25 14:47:13.136  INFO 31232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-25 14:47:13.136  INFO 31232 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3602 ms
+2020-07-25 14:47:13.375  INFO 31232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 14:47:13.590  INFO 31232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 14:47:13.597  INFO 31232 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 14:47:13.930  INFO 31232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 14:47:14.022  INFO 31232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 14:47:14.217  INFO 31232 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 14:47:14.356  INFO 31232 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 14:47:15.024  INFO 31232 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 14:47:15.032  INFO 31232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 14:47:15.539  WARN 31232 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 14:47:15.685  INFO 31232 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 14:47:15.788  INFO 31232 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-25 14:47:16.052  INFO 31232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 14:47:16.114  INFO 31232 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 14:47:16.247  INFO 31232 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-25 14:47:16.280  INFO 31232 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-25 14:47:16.326  INFO 31232 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-25 14:47:16.490  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2020-07-25 14:47:16.491  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingHEAD_1
+2020-07-25 14:47:16.492  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPOST_1
+2020-07-25 14:47:16.493  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPUT_1
+2020-07-25 14:47:16.494  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPATCH_1
+2020-07-25 14:47:16.495  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingDELETE_1
+2020-07-25 14:47:16.497  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingOPTIONS_1
+2020-07-25 14:47:16.499  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingTRACE_1
+2020-07-25 14:47:16.503  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2020-07-25 14:47:16.506  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2020-07-25 14:47:16.508  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2020-07-25 14:47:16.510  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2020-07-25 14:47:16.512  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2020-07-25 14:47:16.514  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2020-07-25 14:47:16.516  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2020-07-25 14:47:16.517  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2020-07-25 14:47:16.518  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2020-07-25 14:47:16.521  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2020-07-25 14:47:16.522  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2020-07-25 14:47:16.524  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2020-07-25 14:47:16.527  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2020-07-25 14:47:16.529  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2020-07-25 14:47:16.531  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2020-07-25 14:47:16.532  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2020-07-25 14:47:16.533  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2020-07-25 14:47:16.535  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2020-07-25 14:47:16.537  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2020-07-25 14:47:16.538  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_1
+2020-07-25 14:47:16.540  INFO 31232 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2020-07-25 14:47:16.611  INFO 31232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2020-07-25 14:47:16.613  INFO 31232 --- [main] c.h.S.SpringBootAngularToDoApplication   : Started SpringBootAngularToDoApplication in 7.588 seconds (JVM running for 8.331)
+2020-07-25 14:47:29.844  INFO 31232 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:47:29.845  INFO 31232 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-25 14:47:29.852  INFO 31232 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-25 15:34:32.288  WARN 31232 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m18s556ms559µs500ns).
+2020-07-25 16:09:36.379  WARN 31232 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m34s76ms655µs100ns).
+2020-07-25 16:28:51.802  INFO 35448 --- [main] .S.SpringBootAngularToDoApplicationTests : Starting SpringBootAngularToDoApplicationTests on G5L5KMV2E with PID 35448 (started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 16:28:51.804  INFO 35448 --- [main] .S.SpringBootAngularToDoApplicationTests : No active profile set, falling back to default profiles: default
+2020-07-25 16:28:53.481  INFO 35448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 16:28:53.584  INFO 35448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88ms. Found 1 JPA repository interfaces.
+2020-07-25 16:28:54.471  INFO 35448 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 16:28:54.585  INFO 35448 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 16:28:54.776  INFO 35448 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 16:28:55.583  INFO 35448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 16:28:55.870  INFO 35448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 16:28:55.900  INFO 35448 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 16:28:56.763  INFO 35448 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 16:28:56.774  INFO 35448 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 16:28:57.567  WARN 35448 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 16:28:58.314  INFO 35448 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 16:28:58.749  INFO 35448 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-25 16:28:59.214  INFO 35448 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 16:28:59.299  INFO 35448 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 16:28:59.643  INFO 35448 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 16:28:59.758  INFO 35448 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-25 16:28:59.799  INFO 35448 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-25 16:28:59.855  INFO 35448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-25 16:29:00.036  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2020-07-25 16:29:00.038  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingHEAD_1
+2020-07-25 16:29:00.039  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPOST_1
+2020-07-25 16:29:00.041  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPUT_1
+2020-07-25 16:29:00.043  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPATCH_1
+2020-07-25 16:29:00.044  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingDELETE_1
+2020-07-25 16:29:00.046  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingOPTIONS_1
+2020-07-25 16:29:00.047  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingTRACE_1
+2020-07-25 16:29:00.054  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2020-07-25 16:29:00.057  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2020-07-25 16:29:00.059  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2020-07-25 16:29:00.062  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2020-07-25 16:29:00.064  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2020-07-25 16:29:00.066  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2020-07-25 16:29:00.068  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2020-07-25 16:29:00.070  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2020-07-25 16:29:00.072  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2020-07-25 16:29:00.073  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2020-07-25 16:29:00.075  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2020-07-25 16:29:00.077  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2020-07-25 16:29:00.080  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2020-07-25 16:29:00.081  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2020-07-25 16:29:00.083  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2020-07-25 16:29:00.084  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2020-07-25 16:29:00.085  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2020-07-25 16:29:00.087  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2020-07-25 16:29:00.088  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2020-07-25 16:29:00.090  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_1
+2020-07-25 16:29:00.092  INFO 35448 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2020-07-25 16:29:00.135  INFO 35448 --- [main] .S.SpringBootAngularToDoApplicationTests : Started SpringBootAngularToDoApplicationTests in 8.718 seconds (JVM running for 10.173)
+2020-07-25 16:29:00.355  INFO 35448 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-25 16:29:00.359  INFO 35448 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 16:29:00.362  INFO 35448 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-25 16:29:00.368  INFO 35448 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-25 16:29:37.909  INFO 18080 --- [main] .S.SpringBootAngularToDoApplicationTests : Starting SpringBootAngularToDoApplicationTests on G5L5KMV2E with PID 18080 (started by 212711129 in C:\Users\212711129\Desktop\dev\SprinBootAngularToDo)
+2020-07-25 16:29:37.912  INFO 18080 --- [main] .S.SpringBootAngularToDoApplicationTests : No active profile set, falling back to default profiles: default
+2020-07-25 16:29:39.618  INFO 18080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-07-25 16:29:39.711  INFO 18080 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82ms. Found 1 JPA repository interfaces.
+2020-07-25 16:29:40.583  INFO 18080 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-25 16:29:40.708  INFO 18080 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-07-25 16:29:40.910  INFO 18080 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-25 16:29:41.738  INFO 18080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-25 16:29:42.012  INFO 18080 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-25 16:29:42.043  INFO 18080 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-25 16:29:42.936  INFO 18080 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-25 16:29:42.947  INFO 18080 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 16:29:43.805  WARN 18080 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-25 16:29:44.461  INFO 18080 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-07-25 16:29:44.906  INFO 18080 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-25 16:29:45.448  INFO 18080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-25 16:29:45.536  INFO 18080 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-07-25 16:29:45.855  INFO 18080 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-07-25 16:29:45.959  INFO 18080 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-25 16:29:46.000  INFO 18080 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-25 16:29:46.064  INFO 18080 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-25 16:29:46.261  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingGET_1
+2020-07-25 16:29:46.262  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingHEAD_1
+2020-07-25 16:29:46.264  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPOST_1
+2020-07-25 16:29:46.266  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPUT_1
+2020-07-25 16:29:46.267  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingPATCH_1
+2020-07-25 16:29:46.268  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingDELETE_1
+2020-07-25 16:29:46.270  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingOPTIONS_1
+2020-07-25 16:29:46.272  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: helloUsingTRACE_1
+2020-07-25 16:29:46.279  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2020-07-25 16:29:46.282  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2020-07-25 16:29:46.284  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2020-07-25 16:29:46.287  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2020-07-25 16:29:46.290  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2020-07-25 16:29:46.292  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2020-07-25 16:29:46.295  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2020-07-25 16:29:46.297  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2020-07-25 16:29:46.300  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2020-07-25 16:29:46.302  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2020-07-25 16:29:46.304  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2020-07-25 16:29:46.306  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2020-07-25 16:29:46.310  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2020-07-25 16:29:46.313  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2020-07-25 16:29:46.316  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2020-07-25 16:29:46.318  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2020-07-25 16:29:46.320  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2020-07-25 16:29:46.323  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2020-07-25 16:29:46.324  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2020-07-25 16:29:46.326  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_1
+2020-07-25 16:29:46.328  INFO 18080 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2020-07-25 16:29:46.366  INFO 18080 --- [main] .S.SpringBootAngularToDoApplicationTests : Started SpringBootAngularToDoApplicationTests in 8.906 seconds (JVM running for 10.761)
+2020-07-25 16:29:46.631  INFO 18080 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-25 16:29:46.636  INFO 18080 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-25 16:29:46.639  INFO 18080 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-25 16:29:46.646  INFO 18080 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
